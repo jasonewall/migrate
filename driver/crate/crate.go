@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gemnasium/migrate/driver"
-	"github.com/gemnasium/migrate/file"
-	"github.com/gemnasium/migrate/migrate/direction"
 	_ "github.com/herenow/go-crate"
+	"github.com/jasonewall/migrate/driver"
+	"github.com/jasonewall/migrate/file"
+	"github.com/jasonewall/migrate/migrate/direction"
 )
 
 func init() {

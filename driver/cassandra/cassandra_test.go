@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gemnasium/migrate/file"
-	"github.com/gemnasium/migrate/migrate/direction"
-	pipep "github.com/gemnasium/migrate/pipe"
 	"github.com/gocql/gocql"
+	"github.com/jasonewall/migrate/file"
+	"github.com/jasonewall/migrate/migrate/direction"
+	pipep "github.com/jasonewall/migrate/pipe"
 )
 
 func TestMigrate(t *testing.T) {
